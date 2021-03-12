@@ -8,8 +8,9 @@ fun main() {
 
     s.reply(Reply.DENY.reason("Não gostei"))
     s.reply(Reply.DENY.reason("Não goste2"))
+    b.reply(Reply.DENY.reason("Não goste3"))
 
-    b.reply(Reply.OK)
+    s.reply(Reply.OK)
 
     println(intermediate)
 }

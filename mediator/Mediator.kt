@@ -6,4 +6,5 @@ interface Mediator {
     fun openComplaint(accused: Person,accuser: Person)
     fun reply(r: Reply, person: Person)
     fun stateComplaint(): String
+    var winner: Person?
 }
