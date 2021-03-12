@@ -1,4 +1,4 @@
-package refactoring_guru.facade.design_pattern.facade
+package facade
 
 interface IWalletFacade {
     fun addMoneyToWallet(accountID: String, securityCode: Int, amount: Int)

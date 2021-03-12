@@ -1,4 +1,4 @@
-package refactoring_guru.facade.design_pattern.facade
+package facade
 
 class Wallet {
     private var _balance = 0

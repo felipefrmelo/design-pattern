@@ -1,4 +1,6 @@
-package refactoring_guru.facade.design_pattern.facade
+package facade
+
+import facade.WalletFacade
 
 fun main() {
     var walletFacade = WalletFacade("abc", 123)
